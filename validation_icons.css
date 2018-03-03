@@ -1,0 +1,43 @@
+
+
+.unvalidated {
+	position: relative;
+	width: 12px;
+	height: 12px;
+	margin: 0 0 3px 8px;
+}
+
+.unvalidated:before, .unvalidated:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	margin-top: 2px;
+	background-color: #c62626;	/* red */
+}
+
+.unvalidated::before {
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.unvalidated::after {
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.validated {
+	width: 7px;
+	height: 12px;
+    border-width: 0 3px 3px 0;
+    border-style: solid;
+    border-color: #3c763d;	/* green */
+    margin: 0 0 2px 8px;
+    -webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
