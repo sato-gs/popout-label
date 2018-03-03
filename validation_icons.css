@@ -33,11 +33,11 @@
 .validated {
 	width: 7px;
 	height: 12px;
-    border-width: 0 3px 3px 0;
-    border-style: solid;
-    border-color: #3c763d;	/* green */
-    margin: 0 0 2px 8px;
-    -webkit-transform: rotate(45deg);
+    	border-width: 0 3px 3px 0;
+    	border-style: solid;
+    	border-color: #3c763d;	/* green */
+    	margin: 0 0 2px 8px;
+    	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
