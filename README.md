@@ -115,4 +115,4 @@ POPOUT LABEL is licensed under [GNU General Public License v3.0](LICENSE.md)
    ```
 
 ## Other Resources
-Visit [here](http://plsgivejobs.com/popout-label/popout-label.html) for more information on default options and customization.
+Visit [here](http://plsgivejobs.com/popout-label/popout-label.html) for more information on default options and customization
